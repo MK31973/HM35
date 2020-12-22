@@ -50,4 +50,4 @@ async def kick(ctx , member : discord.member , * , reason=None):
 async def ban(ctx , member : discord.member , * , reason=None):
 	await member.ban(reason = reason)
 
-client.run('Nzg3MjI1NjY0MTU4OTU3NTY4.X9R3CA.4FSVh015VIKJEjcXkQEiTW5w8nI')
+client.run('token')
